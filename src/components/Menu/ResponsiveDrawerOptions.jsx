@@ -111,7 +111,7 @@ export const ResponsiveDrawerOptins = (props) => {
         </List>
         <Divider />
         <List>
-          <Link href="/citas">
+          <Link href="/historias">
             <ListItem disablePadding>
               <ListItemButton>
                 <ListItemIcon>
@@ -119,7 +119,7 @@ export const ResponsiveDrawerOptins = (props) => {
                     <MedicationIcon sx={iconStyle} />
                   </Badge>
                 </ListItemIcon>
-                <ListItemText primary="Citas" sx={iconStyle} />
+                <ListItemText primary="Historias" sx={iconStyle} />
               </ListItemButton>
             </ListItem>
           </Link>

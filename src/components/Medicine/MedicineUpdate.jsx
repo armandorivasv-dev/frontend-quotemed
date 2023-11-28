@@ -108,7 +108,8 @@ const MedicineUpdate = (props) => {
           "& .MuiButton-root": { mr: 2 },
         }}
         noValidate
-        autoComplete="on">
+        autoComplete="on"
+      >
         <div>
           <TextField
             fullWidth
@@ -173,7 +174,8 @@ const MedicineUpdate = (props) => {
             size="large"
             onClick={() => {
               handleClickOpenUpdate();
-            }}>
+            }}
+          >
             <span>GUARDAR</span>
           </Button>
           <Button
@@ -182,7 +184,8 @@ const MedicineUpdate = (props) => {
             size="large"
             onClick={() => {
               handleClickOpenDelete();
-            }}>
+            }}
+          >
             <span>ELIMINAR</span>
           </Button>
           <Button
@@ -191,7 +194,8 @@ const MedicineUpdate = (props) => {
             size="large"
             onClick={() => {
               handleBack();
-            }}>
+            }}
+          >
             <span>CANCELAR</span>
           </Button>
         </div>
@@ -202,7 +206,8 @@ const MedicineUpdate = (props) => {
         open={openDialogUpdate}
         onClose={handleCloseUpdate}
         aria-labelledby="alert-dialog-title"
-        aria-describedby="alert-dialog-description">
+        aria-describedby="alert-dialog-description"
+      >
         <DialogTitle id="alert-dialog-title">
           {"Esta seguro que desea realizar los cambios?"}
         </DialogTitle>
@@ -219,7 +224,8 @@ const MedicineUpdate = (props) => {
         open={openDialogDelete}
         onClose={handleCloseDelete}
         aria-labelledby="alert-dialog-title"
-        aria-describedby="alert-dialog-description">
+        aria-describedby="alert-dialog-description"
+      >
         <DialogTitle id="alert-dialog-title">
           {"Esta seguro que desea eliminar paciente?"}
         </DialogTitle>

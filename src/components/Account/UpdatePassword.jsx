@@ -14,6 +14,7 @@ import { getUserById, updateUserApi } from '@/services/api/user';
 const UpdatePassword = () => {
 
   const [user, setUser]= useState(null)  
+  console.log("🚀 -> UpdatePassword -> user->", user)
 
   const { auth } = useAuth();
 

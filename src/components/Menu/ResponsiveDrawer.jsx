@@ -62,7 +62,7 @@ function ResponsiveDrawer(props) {
           >
             <MenuIcon />
           </IconButton>
-          APP PARA CITAS MEDICAS
+          APP PARA HISTORIAS MEDICAS
         </Toolbar>
       </AppBar>
       <Box
@@ -138,7 +138,7 @@ function ResponsiveDrawer(props) {
               gutterBottom
               sx={{ mt: 2 }}
             >
-              CitaMed
+              HistoryMed
             </Typography>
           </Grid>
           <ResponsiveDrawerOptins />
